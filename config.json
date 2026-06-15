@@ -1,0 +1,16 @@
+{
+  "agents": [
+    {
+      "id": "claude",
+      "name": "Claude Code",
+      "command": ["claude"],
+      "cwd": null
+    },
+    {
+      "id": "codex",
+      "name": "Codex CLI",
+      "command": ["codex"],
+      "cwd": null
+    }
+  ]
+}
