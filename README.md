@@ -1,7 +1,7 @@
-# Agent Desk
+# Agent Console
 
-Agent Desk is a local daemon prototype for a desktop hardware controller that can
-monitor and control Claude Code and Codex CLI sessions.
+Agent Console is a local daemon prototype for a desktop hardware controller that
+can monitor and control Claude Code and Codex CLI sessions.
 
 The first milestone is intentionally small:
 

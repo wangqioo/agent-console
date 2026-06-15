@@ -153,7 +153,7 @@ class Handler(BaseHTTPRequestHandler):
 
 def main() -> None:
     server = ThreadingHTTPServer((HOST, PORT), Handler)
-    print(f"Agent Desk daemon listening on http://{HOST}:{PORT}")
+    print(f"Agent Console daemon listening on http://{HOST}:{PORT}")
     server.serve_forever()
 
 

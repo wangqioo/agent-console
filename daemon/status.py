@@ -19,7 +19,7 @@ PROVIDERS = {
 
 
 def _fetch_json(url: str, timeout: float = 8.0) -> dict[str, Any]:
-    request = urllib.request.Request(url, headers={"User-Agent": "agent-desk/0.1"})
+    request = urllib.request.Request(url, headers={"User-Agent": "agent-console/0.1"})
     with urllib.request.urlopen(request, timeout=timeout) as response:
         return json.loads(response.read().decode("utf-8"))
 
@@ -45,4 +45,3 @@ def get_provider_status() -> dict[str, Any]:
             }
 
     return {"providers": providers}
-
